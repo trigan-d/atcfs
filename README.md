@@ -8,10 +8,11 @@ Features:
 - Simple authorization via custom HTTP headers for all operations
 - Expirable temporary links to download the files without authorization
 - Full support for non-latin characters in file names
+- All requests are logged
 
 Implementation:
 - Spring Boot for REST API
-- PostgreSQL for storing JSON records and files metadata
+- PostgreSQL for storing JSON records, files metadata, request logs and authorization credentials.
 - Guava cache for temporary links
 - Storing files on disk in folders representing file creation time: <atcfs basedir>/YYYY-MM-DD/HH/
 - Split one-hour folder to subfolders when the configured "filesperdirectory" limit exceeded
