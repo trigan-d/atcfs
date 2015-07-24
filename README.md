@@ -15,3 +15,7 @@ Implementation:
 - Guava cache for temporary links
 - Storing files on disk in folders representing file creation time: <atcfs basedir>/YYYY-MM-DD/HH/
 - Split one-hour folder to subfolders when the configured "filesperdirectory" limit exceeded
+
+Contributors:
+- Dmitry Solovyov https://github.com/trigan-d
+- Mikhail Gromov https://github.com/mgtriffid
