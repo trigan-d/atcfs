@@ -1,5 +1,5 @@
 # atcfs
-Simple file storage server.
+Simple file storage server and client library in Java.
 
 Features:
 - CRUD operations on files via REST API
